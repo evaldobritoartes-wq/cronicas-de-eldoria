@@ -1,1 +1,95 @@
 
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#151923">
+  <title>Crônicas de Eldoria</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="topbar">
+    <div>
+      <p class="eyebrow">RPG ONLINE • PROTÓTIPO</p>
+      <h1>Crônicas de <span>Eldoria</span></h1>
+    </div>
+    <button id="profileBtn" class="outline">Herói ▾</button>
+  </header>
+
+  <main>
+    <section class="hero-panel">
+      <div class="hero-copy">
+        <p class="eyebrow">VALE DE ELDORIA</p>
+        <h2>O destino começa aqui.</h2>
+        <p>Explore terras esquecidas, enfrente criaturas e escreva sua própria lenda.</p>
+      </div>
+
+      <div class="hero-stats">
+        <div><small>NÍVEL</small><strong>1</strong></div>
+        <div><small>VIDA</small><strong>100 / 100</strong></div>
+        <div><small>OURO</small><strong>120</strong></div>
+      </div>
+    </section>
+
+    <section class="section-head">
+      <div>
+        <p class="eyebrow">EXPLORAÇÃO</p>
+        <h2>Mapa do Vale</h2>
+      </div>
+      <span class="tag">4 locais</span>
+    </section>
+
+    <section class="map-grid">
+      <button class="location city" data-place="Lúmen">
+        <span class="symbol">♜</span>
+        <strong>Lúmen</strong>
+        <small>Cidade inicial • Comércio</small>
+      </button>
+
+      <button class="location forest" data-place="Floresta de Nhalor">
+        <span class="symbol">♧</span>
+        <strong>Floresta de Nhalor</strong>
+        <small>Caçadas • Coleta</small>
+      </button>
+
+      <button class="location ruins" data-place="Ruínas de Vharak">
+        <span class="symbol">⌂</span>
+        <strong>Ruínas de Vharak</strong>
+        <small>Masmorras • Chefes</small>
+      </button>
+
+      <button class="location fortress" data-place="Fortaleza de Drakmor">
+        <span class="symbol">♙</span>
+        <strong>Fortaleza de Drakmor</strong>
+        <small>Desafios avançados</small>
+      </button>
+    </section>
+
+    <section class="notice" id="notice">
+      <strong>Bem-vindo, aventureiro.</strong>
+      <p>Escolha um local no mapa para ver seus detalhes.</p>
+    </section>
+
+    <section class="section-head">
+      <div>
+        <p class="eyebrow">JORNADA</p>
+        <h2>Atalhos</h2>
+      </div>
+    </section>
+
+    <nav class="quick-links">
+      <button data-action="Personagem">⚔ Personagem</button>
+      <button data-action="Missões">✦ Missões</button>
+      <button data-action="Masmorras">▤ Masmorras</button>
+      <button data-action="Guildas">⚑ Guildas</button>
+      <button data-action="Mercado">◇ Mercado</button>
+    </nav>
+  </main>
+
+  <footer>Protótipo visual • Ainda sem contas ou multiplayer</footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
+
